@@ -387,7 +387,7 @@ Then, in order to `include` or `extend` as needed, we use the `include` or
 
 In both the `Song` and `Artist` classes:
 
-```ruby
+```rubys
 extend Memorable::ClassMethods
 include Memorable::InstanceMethods
 ```
